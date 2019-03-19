@@ -8,7 +8,7 @@ python:
 
 # command to install dependencies
 install:
-- pip install grammpy grammpy-transforms pyparsers lambda_interpreter ply
+- pip install -r requirements.txt
 
 # command to run tests with coverage
 script:
